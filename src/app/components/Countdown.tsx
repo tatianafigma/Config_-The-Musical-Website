@@ -9,11 +9,8 @@ function getTarget() {
     : { date: CONFIG_2027, past: true };
 }
 
-function formatTime(ms: number) {
-  const totalSeconds = Math.max(0, Math.floor(ms / 1000));
-  const minutes = Math.floor(totalSeconds / 60);
-  const seconds = totalSeconds % 60;
-  return { minutes: String(minutes).padStart(2, "0"), seconds: String(seconds).padStart(2, "0") };
+function formatDays(ms: number) {
+  return Math.max(0, Math.ceil(ms / (1000 * 60 * 60 * 24)));
 }
 
 export function Countdown() {
@@ -26,14 +23,14 @@ export function Countdown() {
 
   const target = getTarget();
   const remaining = target.date.getTime() - now;
-  const { minutes, seconds } = formatTime(remaining);
+  const days = formatDays(remaining);
 
   return (
     <div className="bg-foreground text-background flex items-center justify-center gap-3 h-10 font-mono-label text-[12px] tracking-[0.08em]">
       {target.past && <span className="text-background/70">MARK YOUR CALENDARS</span>}
       {target.past && <span className="text-background/40">·</span>}
       <span>{target.past ? "CONFIG 2027 IN" : "CONFIG STARTS IN"}</span>
-      <span className="tabular-nums font-bold">{minutes}:{seconds}</span>
+      <span className="tabular-nums font-bold">{days} {days === 1 ? "DAY" : "DAYS"}</span>
     </div>
   );
 }
