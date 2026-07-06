@@ -23,7 +23,7 @@ export function Hero() {
               Figma’s conference for people who build products — performed in three-part harmony.
             </p>
             <div className="font-mono-label text-[10px] text-foreground/70 space-y-2">
-              <div>
+              <div className="font-bold">
                 JUNE 23–25, 2026<br />
                 SAN FRANCISCO, CA
               </div>
@@ -52,13 +52,13 @@ export function Hero() {
         <div className="mt-8 flex flex-wrap gap-3">
           <a
             href="#register"
-            className="inline-flex items-center justify-center h-12 px-8 bg-foreground text-background font-mono-label text-[12px] rounded-sm hover:bg-foreground/85 transition-colors"
+            className="inline-flex items-center justify-center h-12 px-8 bg-[var(--c-purple)] text-background font-mono-label text-[12px] rounded-sm hover:bg-foreground/85 transition-colors"
           >
             REGISTER
           </a>
           <a
             href="#setlist"
-            className="inline-flex items-center justify-center h-12 px-8 border border-foreground text-foreground font-mono-label text-[12px] rounded-sm hover:bg-foreground hover:text-background transition-colors"
+            className="inline-flex items-center justify-center h-12 px-8 border border-[var(--c-green)] text-foreground font-mono-label text-[12px] rounded-sm hover:bg-foreground hover:text-background transition-colors"
           >
             VIEW THE SETLIST
           </a>

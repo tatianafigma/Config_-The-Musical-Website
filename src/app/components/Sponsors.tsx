@@ -14,14 +14,14 @@ export function Sponsors() {
           style={{ fontFamily: "'Figma Sans VF', sans-serif", fontSize: "clamp(1.75rem, 3.5vw, 3rem)" }}
           className="max-w-[820px] mb-10"
         >
-          Thank you to our Config 2026 sponsors.
+          <b><i>Thank you to our Config 2026 sponsors.</i></b>
         </h2>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 border-t border-l border-border">
-          {sponsors.map((s) => (
+          {sponsors.map((s, i) => (
             <div
               key={s}
-              className="border-r border-b border-border aspect-[2/1] flex items-center justify-center bg-card hover:bg-muted transition-colors"
+              className={`border-r border-b border-border aspect-[2/1] flex items-center justify-center hover:bg-muted transition-colors ${i === 0 ? "bg-[var(--background)]" : "bg-card"}`}
             >
               <span style={{ fontFamily: "'Figma Sans VF', sans-serif", fontSize: "1.5rem" }}>{s}</span>
             </div>
