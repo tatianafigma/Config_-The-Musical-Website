@@ -45,7 +45,7 @@ export function Hero() {
           style={{ fontFamily: "'Figma Sans VF', sans-serif", fontSize: "45px", lineHeight: 1.05, letterSpacing: "-0.005em" }}
           className="mt-10 max-w-[1100px] text-foreground"
         >
-          We decided to go MUSICAL in 2026. We're not one of those boring conferences - we're a cool conference. This is a conference celebrating design, development and AI with rock, rap and more!
+          We are deciding to go MUSICAL in 2027. We're not one of those boring conferences - we're a cool conference. This is a conference celebrating design, development and AI with pop, rock, rap, indie -- stickers and more!
         </h1>
 
         {/* CTAs */}
