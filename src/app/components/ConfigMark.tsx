@@ -120,7 +120,7 @@ export function HeroTiles({ className }: { className?: string }) {
   return (
     <div className={className + " grid grid-cols-2 md:grid-cols-4 gap-3"}>
       {/* Orange tile — vinyl record speckle */}
-      <div className="aspect-square relative overflow-hidden rounded-sm" style={{ background: "#ff7a3d" }}>
+      <div className="aspect-square relative overflow-hidden rounded-sm" style={{ background: "#00b3ff" }}>
         <svg viewBox="0 0 200 200" className="absolute inset-0 w-full h-full">
           {/* concentric vinyl rings */}
           {[90, 75, 60, 45, 30].map((r, i) => (
