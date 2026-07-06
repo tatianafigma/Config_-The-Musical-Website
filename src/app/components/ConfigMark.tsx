@@ -187,28 +187,6 @@ export function HeroTiles({ className }: { className?: string }) {
 
       {/* Blue tile — sound burst / sonic starburst */}
       <div className="aspect-square relative overflow-hidden rounded-sm" style={{ background: "#0a0a0a" }}>
-        <svg viewBox="0 0 200 200" className="absolute inset-0 w-full h-full">
-          {/* radial spikes */}
-          <g transform="translate(100 100)">
-            {Array.from({ length: 14 }).map((_, i) => {
-              const angle = (i / 14) * Math.PI * 2;
-              const len = 70 + (i % 3) * 15;
-              const x = Math.cos(angle) * len;
-              const y = Math.sin(angle) * len;
-              return (
-                <path
-                  key={i}
-                  d={`M 0 0 L ${x * 0.3} ${y * 0.3 - 8} L ${x} ${y} L ${x * 0.3 + 8} ${y * 0.3} Z`}
-                  fill="#00b3ff"
-                />
-              );
-            })}
-            <circle cx="0" cy="0" r="22" fill="#00b3ff" />
-            {/* small sound-wave arcs in the center */}
-            <path d="M -8 0 q 8 -8 16 0" stroke="#0a0a0a" strokeWidth="2.5" fill="none" />
-            <path d="M -12 6 q 12 -12 24 0" stroke="#0a0a0a" strokeWidth="2.5" fill="none" />
-          </g>
-        </svg>
       </div>
     </div>
   );

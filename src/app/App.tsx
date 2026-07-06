@@ -1,3 +1,4 @@
+import { CountdownBanner } from "./components/CountdownBanner";
 import { Navbar } from "./components/Navbar";
 import { Hero } from "./components/Hero";
 import { Headliners } from "./components/Headliners";
@@ -13,6 +14,7 @@ export default function App() {
       className="bg-background text-foreground min-h-screen"
       style={{ fontFamily: "'Figma Sans VF', sans-serif" }}
     >
+      <CountdownBanner />
       <Navbar />
       <main>
         <Hero />

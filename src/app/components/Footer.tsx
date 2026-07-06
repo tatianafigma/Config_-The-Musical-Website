@@ -36,7 +36,7 @@ export function Footer() {
       <div className="max-w-[1400px] mx-auto px-6 pt-16 pb-10">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-10">
           <div className="md:col-span-5">
-            <div className="font-mono-label text-[11px] text-foreground/60 mb-3">CONFIG: THE MUSICAL · 2026</div>
+            <div className="font-mono-label text-[11px] text-foreground/60 mb-3">CONFIG: THE MUSICAL · 2027</div>
             <p className="text-sm text-foreground/70 max-w-[380px]">
               The annual gathering for designers, developers, and product builders — performed live at Moscone Center, San Francisco, June 23–25.
             </p>

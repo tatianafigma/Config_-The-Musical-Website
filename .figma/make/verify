@@ -1,0 +1,21 @@
+#!/bin/bash
+set -e
+
+URL="http://localhost:5173"
+MAX_WAIT=120
+INTERVAL=2
+ELAPSED=0
+
+echo "Waiting for dev server at $URL..."
+
+while [ $ELAPSED -lt $MAX_WAIT ]; do
+  if curl -sf "$URL" > /dev/null 2>&1; then
+    echo "Dev server is ready."
+    exit 0
+  fi
+  sleep $INTERVAL
+  ELAPSED=$((ELAPSED + INTERVAL))
+done
+
+echo "Dev server did not start within ${MAX_WAIT}s."
+exit 1

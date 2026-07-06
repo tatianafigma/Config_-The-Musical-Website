@@ -24,7 +24,7 @@ export function Hero() {
             </p>
             <div className="font-mono-label text-[10px] text-foreground/70 space-y-2">
               <div>
-                JUNE 23–25, 2026<br />
+                JUNE 23–25, 2027<br />
                 SAN FRANCISCO, CA
               </div>
               <div>
@@ -45,7 +45,7 @@ export function Hero() {
           style={{ fontFamily: "'Figma Sans VF', sans-serif", fontSize: "45px", lineHeight: 1.05, letterSpacing: "-0.005em" }}
           className="mt-10 max-w-[1100px] text-foreground"
         >
-          We decided to go MUSICAL in 2026. We're not one of those boring conferences - we're a cool conference. This is a conference celebrating design, development and AI with rock, rap and more!
+          We decided to go MUSICAL in 2027. We're not one of those boring conferences - we're a cool conference. This is a conference celebrating design, development and AI with rock, rap and more!
         </h1>
 
         {/* CTAs */}
@@ -58,7 +58,7 @@ export function Hero() {
           </a>
           <a
             href="#setlist"
-            className="inline-flex items-center justify-center h-12 px-8 border border-foreground text-foreground font-mono-label text-[12px] rounded-sm hover:bg-foreground hover:text-background transition-colors"
+            className="inline-flex items-center justify-center h-12 px-8 border border-destructive text-foreground font-mono-label text-[12px] rounded-sm hover:bg-foreground hover:text-background transition-colors"
           >
             VIEW THE SETLIST
           </a>
