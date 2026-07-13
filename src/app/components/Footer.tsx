@@ -45,7 +45,7 @@ export function Footer() {
                 <a
                   key={i}
                   href={href}
-                  className="w-9 h-9 inline-flex items-center justify-center border border-border rounded-sm hover:bg-foreground hover:text-background transition-colors"
+                  className="w-9 h-9 inline-flex items-center justify-center rounded-sm hover:bg-foreground hover:text-background transition-colors"
                   aria-label="Social link"
                 >
                   <Icon size={15} />
