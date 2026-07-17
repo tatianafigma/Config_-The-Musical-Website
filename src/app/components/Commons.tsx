@@ -6,7 +6,9 @@ export function Commons() {
       {/* Big green graffiti divider */}
       <div className="bg-background py-10 overflow-hidden">
         <div className="max-w-[1400px] mx-auto px-6">
-          <GraffitiConfig />
+          <div style={{ boxShadow: "inset 0px 4px 5px 0px rgba(0, 0, 0, 0.25)" }}>
+            <GraffitiConfig />
+          </div>
         </div>
       </div>
 

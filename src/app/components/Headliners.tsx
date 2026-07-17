@@ -74,7 +74,7 @@ export function Headliners() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mt-20 pt-10 border-t border-border">
           {features.map((f) => (
             <div key={f.eyebrow}>
-              <div className="font-mono-label text-[11px] text-foreground/60 mb-3">{f.eyebrow}</div>
+              <div className="font-mono-label text-[11px] text-[#FFE14D] font-bold border border-black mb-3">{f.eyebrow}</div>
               <p className="text-sm leading-relaxed text-foreground/85 max-w-[340px]">{f.body}</p>
             </div>
           ))}

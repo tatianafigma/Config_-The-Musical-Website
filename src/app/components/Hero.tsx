@@ -23,7 +23,7 @@ export function Hero() {
               Figma’s conference for people who build products — performed in three-part harmony.
             </p>
             <div className="font-mono-label text-[10px] text-foreground/70 space-y-2">
-              <div>
+              <div className="font-bold">
                 JUNE 23–25, 2026<br />
                 SAN FRANCISCO, CA
               </div>
@@ -45,20 +45,20 @@ export function Hero() {
           style={{ fontFamily: "'Figma Sans VF', sans-serif", fontSize: "45px", lineHeight: 1.05, letterSpacing: "-0.005em" }}
           className="mt-10 max-w-[1100px] text-foreground"
         >
-          We decided to go MUSICAL in 2026. We're not one of those boring conferences - we're a cool conference. This is a conference celebrating design, development and AI with rock, rap and more!
+          We are deciding to go MUSICAL in 2027. We're not one of those boring conferences - we're a cool conference. This is a conference celebrating design, development and AI with pop, rock, rap, indie -- stickers and more!
         </h1>
 
         {/* CTAs */}
         <div className="mt-8 flex flex-wrap gap-3">
           <a
             href="#register"
-            className="inline-flex items-center justify-center h-12 px-8 bg-foreground text-background font-mono-label text-[12px] rounded-sm hover:bg-foreground/85 transition-colors"
+            className="inline-flex items-center justify-center h-12 px-8 bg-[var(--c-purple)] text-background font-mono-label text-[12px] rounded-sm hover:bg-foreground/85 transition-colors"
           >
             REGISTER
           </a>
           <a
             href="#setlist"
-            className="inline-flex items-center justify-center h-12 px-8 border border-foreground text-foreground font-mono-label text-[12px] rounded-sm hover:bg-foreground hover:text-background transition-colors"
+            className="inline-flex items-center justify-center h-12 px-8 border border-[var(--c-green)] text-foreground font-mono-label text-[12px] rounded-sm hover:bg-foreground hover:text-background transition-colors"
           >
             VIEW THE SETLIST
           </a>

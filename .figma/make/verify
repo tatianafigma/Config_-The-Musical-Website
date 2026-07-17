@@ -1,0 +1,19 @@
+#!/bin/bash
+set -euo pipefail
+
+MAX_WAIT=30
+INTERVAL=2
+ELAPSED=0
+URL="http://localhost:${PORT:-5173}"
+
+while [ "$ELAPSED" -lt "$MAX_WAIT" ]; do
+  if curl -sf "$URL" > /dev/null 2>&1; then
+    echo "Dev server is up at $URL"
+    exit 0
+  fi
+  sleep "$INTERVAL"
+  ELAPSED=$((ELAPSED + INTERVAL))
+done
+
+echo "Error: Dev server not reachable at $URL after ${MAX_WAIT}s"
+exit 1
