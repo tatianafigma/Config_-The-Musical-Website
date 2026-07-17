@@ -69,7 +69,7 @@ export function Navbar() {
             <a
               key={item.label}
               href={item.href}
-              className="font-mono-label text-[12px] tracking-[0.12em] text-foreground/85 hover:text-foreground transition-colors"
+              className="font-mono-label text-[12px] tracking-[0.12em] text-foreground/85 hover:text-foreground transition-colors bg-[var(--accent)]"
             >
               {item.label}
             </a>
