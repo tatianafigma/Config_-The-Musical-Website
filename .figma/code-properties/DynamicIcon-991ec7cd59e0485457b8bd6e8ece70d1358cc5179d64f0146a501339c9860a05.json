@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "DynamicIcon",
+    "filePath": "node_modules/lucide-react/dist/esm/DynamicIcon.js"
+  },
+  "codeProperties": {
+    "name": {
+      "type": "string",
+      "name": "Icon Name",
+      "description": "The name of the Lucide icon to render dynamically."
+    }
+  }
+}

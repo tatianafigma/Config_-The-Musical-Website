@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "IconButton",
+    "filePath": "node_modules/@mui/material/esm/IconButton/IconButton.js"
+  },
+  "codeProperties": {
+    "color": {
+      "type": "string",
+      "name": "Color",
+      "defaultValue": "default",
+      "options": [
+        "inherit",
+        "default",
+        "primary",
+        "secondary",
+        "error",
+        "info",
+        "success",
+        "warning"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "inherit": "Inherit",
+          "default": "Default",
+          "primary": "Primary",
+          "secondary": "Secondary",
+          "error": "Error",
+          "info": "Info",
+          "success": "Success",
+          "warning": "Warning"
+        }
+      }
+    },
+    "size": {
+      "type": "string",
+      "name": "Size",
+      "defaultValue": "medium",
+      "options": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "small": "Small",
+          "medium": "Medium",
+          "large": "Large"
+        }
+      }
+    },
+    "edge": {
+      "type": "string",
+      "name": "Edge",
+      "defaultValue": "false",
+      "options": [
+        "end",
+        "start",
+        "false"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "end": "End",
+          "start": "Start",
+          "false": "None"
+        }
+      }
+    },
+    "disabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "defaultValue": false
+    },
+    "disableFocusRipple": {
+      "type": "boolean",
+      "name": "Disable Focus Ripple",
+      "defaultValue": false
+    },
+    "loading": {
+      "type": "boolean",
+      "name": "Loading"
+    }
+  }
+}

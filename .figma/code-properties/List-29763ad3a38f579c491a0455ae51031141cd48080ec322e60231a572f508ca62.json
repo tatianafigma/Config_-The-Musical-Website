@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "List",
+    "filePath": "node_modules/@mui/material/esm/List/List.js"
+  },
+  "codeProperties": {
+    "dense": {
+      "type": "boolean",
+      "name": "Dense",
+      "description": "If true, compact vertical padding designed for keyboard and mouse input is used for the list and list items.",
+      "defaultValue": false
+    },
+    "disablePadding": {
+      "type": "boolean",
+      "name": "Disable Padding",
+      "description": "If true, vertical padding is removed from the list.",
+      "defaultValue": false
+    }
+  }
+}

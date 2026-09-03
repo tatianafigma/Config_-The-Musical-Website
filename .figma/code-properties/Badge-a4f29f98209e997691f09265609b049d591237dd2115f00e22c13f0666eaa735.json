@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Badge",
+    "filePath": "node_modules/@mui/material/esm/Badge/Badge.js"
+  },
+  "codeProperties": {
+    "color": {
+      "type": "string",
+      "name": "Color",
+      "defaultValue": "default",
+      "description": "The color of the component.",
+      "options": [
+        "default",
+        "primary",
+        "secondary",
+        "error",
+        "info",
+        "success",
+        "warning"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "default": "Default",
+          "primary": "Primary",
+          "secondary": "Secondary",
+          "error": "Error",
+          "info": "Info",
+          "success": "Success",
+          "warning": "Warning"
+        }
+      }
+    },
+    "variant": {
+      "type": "string",
+      "name": "Variant",
+      "defaultValue": "standard",
+      "description": "The variant to use.",
+      "options": [
+        "dot",
+        "standard"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "dot": "Dot",
+          "standard": "Standard"
+        }
+      }
+    },
+    "overlap": {
+      "type": "string",
+      "name": "Overlap",
+      "defaultValue": "rectangular",
+      "description": "Wrapped shape the badge should overlap.",
+      "options": [
+        "circular",
+        "rectangular"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "circular": "Circular",
+          "rectangular": "Rectangular"
+        }
+      }
+    },
+    "invisible": {
+      "type": "boolean",
+      "name": "Invisible",
+      "defaultValue": false,
+      "description": "If true, the badge is invisible."
+    },
+    "max": {
+      "type": "number",
+      "name": "Max",
+      "defaultValue": 99,
+      "description": "Max count to show."
+    },
+    "showZero": {
+      "type": "boolean",
+      "name": "Show Zero",
+      "defaultValue": false,
+      "description": "Controls whether the badge is hidden when badgeContent is zero."
+    }
+  }
+}

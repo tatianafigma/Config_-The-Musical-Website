@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Progress",
+    "filePath": "src/app/components/ui/progress.tsx"
+  },
+  "codeProperties": {
+    "value": {
+      "type": "number",
+      "name": "Value"
+    },
+    "max": {
+      "type": "number",
+      "name": "Max"
+    }
+  }
+}

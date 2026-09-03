@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Tabs",
+    "filePath": "src/app/components/ui/tabs.tsx"
+  },
+  "codeProperties": {
+    "defaultValue": {
+      "type": "string",
+      "name": "Default Value"
+    },
+    "activationMode": {
+      "type": "string",
+      "name": "Activation Mode",
+      "options": [
+        "automatic",
+        "manual"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "automatic": "Automatic",
+          "manual": "Manual"
+        }
+      }
+    },
+    "orientation": {
+      "type": "string",
+      "name": "Orientation",
+      "options": [
+        "horizontal",
+        "vertical"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "horizontal": "Horizontal",
+          "vertical": "Vertical"
+        }
+      }
+    }
+  }
+}

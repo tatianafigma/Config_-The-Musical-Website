@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "ToggleButton",
+    "filePath": "node_modules/@mui/material/esm/ToggleButton/ToggleButton.js"
+  },
+  "codeProperties": {
+    "color": {
+      "type": "string",
+      "name": "Color",
+      "defaultValue": "standard",
+      "options": [
+        "standard",
+        "primary",
+        "secondary",
+        "error",
+        "info",
+        "success",
+        "warning"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "standard": "Standard",
+          "primary": "Primary",
+          "secondary": "Secondary",
+          "error": "Error",
+          "info": "Info",
+          "success": "Success",
+          "warning": "Warning"
+        }
+      }
+    },
+    "size": {
+      "type": "string",
+      "name": "Size",
+      "defaultValue": "medium",
+      "options": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "small": "Small",
+          "medium": "Medium",
+          "large": "Large"
+        }
+      }
+    },
+    "disabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "defaultValue": false
+    },
+    "disableFocusRipple": {
+      "type": "boolean",
+      "name": "Disable Focus Ripple",
+      "defaultValue": false
+    },
+    "disableRipple": {
+      "type": "boolean",
+      "name": "Disable Ripple",
+      "defaultValue": false
+    },
+    "fullWidth": {
+      "type": "boolean",
+      "name": "Full Width",
+      "defaultValue": false
+    },
+    "selected": {
+      "type": "boolean",
+      "name": "Selected"
+    }
+  }
+}

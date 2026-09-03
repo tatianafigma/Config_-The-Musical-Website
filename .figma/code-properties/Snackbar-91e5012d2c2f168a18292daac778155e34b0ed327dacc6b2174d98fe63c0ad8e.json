@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Snackbar",
+    "filePath": "node_modules/@mui/material/esm/Snackbar/Snackbar.js"
+  },
+  "codeProperties": {
+    "autoHideDuration": {
+      "type": "number",
+      "name": "Auto Hide Duration",
+      "description": "The number of milliseconds to wait before automatically calling the onClose function."
+    },
+    "disableWindowBlurListener": {
+      "type": "boolean",
+      "name": "Disable Window Blur Listener",
+      "description": "If true, the autoHideDuration timer will expire even if the window is not focused.",
+      "defaultValue": false
+    },
+    "open": {
+      "type": "boolean",
+      "name": "Open",
+      "description": "If true, the component is shown."
+    }
+  }
+}

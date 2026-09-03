@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Drawer",
+    "filePath": "node_modules/@mui/material/esm/Drawer/Drawer.js"
+  },
+  "codeProperties": {
+    "anchor": {
+      "type": "string",
+      "name": "Anchor",
+      "description": "Side from which the drawer will appear.",
+      "defaultValue": "left",
+      "options": [
+        "bottom",
+        "left",
+        "right",
+        "top"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "bottom": "Bottom",
+          "left": "Left",
+          "right": "Right",
+          "top": "Top"
+        }
+      }
+    },
+    "variant": {
+      "type": "string",
+      "name": "Variant",
+      "description": "The variant to use.",
+      "defaultValue": "temporary",
+      "options": [
+        "permanent",
+        "persistent",
+        "temporary"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "permanent": "Permanent",
+          "persistent": "Persistent",
+          "temporary": "Temporary"
+        }
+      }
+    },
+    "open": {
+      "type": "boolean",
+      "name": "Open",
+      "description": "If true, the component is shown.",
+      "defaultValue": false
+    },
+    "elevation": {
+      "type": "number",
+      "name": "Elevation",
+      "description": "The elevation of the drawer.",
+      "defaultValue": 16
+    },
+    "hideBackdrop": {
+      "type": "boolean",
+      "name": "Hide Backdrop",
+      "description": "If true, the backdrop is not rendered.",
+      "defaultValue": false
+    }
+  }
+}

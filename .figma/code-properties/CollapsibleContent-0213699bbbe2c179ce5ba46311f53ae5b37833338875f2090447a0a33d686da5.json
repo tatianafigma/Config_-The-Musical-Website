@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "CollapsibleContent",
+    "filePath": "src/app/components/ui/collapsible.tsx"
+  },
+  "codeProperties": {
+    "forceMount": {
+      "type": "boolean",
+      "name": "Force Mount"
+    }
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Tooltip",
+    "filePath": "node_modules/@mui/material/esm/Tooltip/Tooltip.js"
+  },
+  "codeProperties": {
+    "placement": {
+      "type": "string",
+      "name": "Placement",
+      "defaultValue": "bottom",
+      "options": [
+        "auto",
+        "auto-start",
+        "auto-end",
+        "top",
+        "top-start",
+        "top-end",
+        "bottom",
+        "bottom-start",
+        "bottom-end",
+        "left",
+        "left-start",
+        "left-end",
+        "right",
+        "right-start",
+        "right-end"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "auto": "Auto",
+          "auto-start": "Auto Start",
+          "auto-end": "Auto End",
+          "top": "Top",
+          "top-start": "Top Start",
+          "top-end": "Top End",
+          "bottom": "Bottom",
+          "bottom-start": "Bottom Start",
+          "bottom-end": "Bottom End",
+          "left": "Left",
+          "left-start": "Left Start",
+          "left-end": "Left End",
+          "right": "Right",
+          "right-start": "Right Start",
+          "right-end": "Right End"
+        }
+      }
+    },
+    "arrow": {
+      "type": "boolean",
+      "name": "Arrow",
+      "defaultValue": false
+    },
+    "open": {
+      "type": "boolean",
+      "name": "Open"
+    },
+    "disableFocusListener": {
+      "type": "boolean",
+      "name": "Disable Focus Listener",
+      "defaultValue": false
+    },
+    "disableHoverListener": {
+      "type": "boolean",
+      "name": "Disable Hover Listener",
+      "defaultValue": false
+    },
+    "disableInteractive": {
+      "type": "boolean",
+      "name": "Disable Interactive",
+      "defaultValue": false
+    },
+    "disableTouchListener": {
+      "type": "boolean",
+      "name": "Disable Touch Listener",
+      "defaultValue": false
+    },
+    "followCursor": {
+      "type": "boolean",
+      "name": "Follow Cursor",
+      "defaultValue": false
+    },
+    "describeChild": {
+      "type": "boolean",
+      "name": "Describe Child",
+      "defaultValue": false
+    },
+    "enterDelay": {
+      "type": "number",
+      "name": "Enter Delay",
+      "defaultValue": 100
+    },
+    "enterNextDelay": {
+      "type": "number",
+      "name": "Enter Next Delay",
+      "defaultValue": 0
+    },
+    "enterTouchDelay": {
+      "type": "number",
+      "name": "Enter Touch Delay",
+      "defaultValue": 700
+    },
+    "leaveDelay": {
+      "type": "number",
+      "name": "Leave Delay",
+      "defaultValue": 0
+    },
+    "leaveTouchDelay": {
+      "type": "number",
+      "name": "Leave Touch Delay",
+      "defaultValue": 1500
+    }
+  }
+}

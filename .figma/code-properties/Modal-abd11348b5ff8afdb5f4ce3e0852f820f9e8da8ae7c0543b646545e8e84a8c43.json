@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Modal",
+    "filePath": "node_modules/@mui/material/esm/Modal/Modal.js"
+  },
+  "codeProperties": {
+    "open": {
+      "type": "boolean",
+      "name": "Open"
+    },
+    "closeAfterTransition": {
+      "type": "boolean",
+      "name": "Close After Transition",
+      "defaultValue": false
+    },
+    "disableAutoFocus": {
+      "type": "boolean",
+      "name": "Disable Auto Focus",
+      "defaultValue": false
+    },
+    "disableEnforceFocus": {
+      "type": "boolean",
+      "name": "Disable Enforce Focus",
+      "defaultValue": false
+    },
+    "disableEscapeKeyDown": {
+      "type": "boolean",
+      "name": "Disable Escape Key Down",
+      "defaultValue": false
+    },
+    "disablePortal": {
+      "type": "boolean",
+      "name": "Disable Portal",
+      "defaultValue": false
+    },
+    "disableRestoreFocus": {
+      "type": "boolean",
+      "name": "Disable Restore Focus",
+      "defaultValue": false
+    },
+    "disableScrollLock": {
+      "type": "boolean",
+      "name": "Disable Scroll Lock",
+      "defaultValue": false
+    },
+    "hideBackdrop": {
+      "type": "boolean",
+      "name": "Hide Backdrop",
+      "defaultValue": false
+    },
+    "keepMounted": {
+      "type": "boolean",
+      "name": "Keep Mounted",
+      "defaultValue": false
+    }
+  }
+}

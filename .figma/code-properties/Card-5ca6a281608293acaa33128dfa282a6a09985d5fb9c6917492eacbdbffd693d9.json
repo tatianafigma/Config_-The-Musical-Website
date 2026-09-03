@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Card",
+    "filePath": "node_modules/@mui/material/esm/Card/Card.js"
+  },
+  "codeProperties": {
+    "raised": {
+      "type": "boolean",
+      "name": "Raised",
+      "defaultValue": false,
+      "description": "If true, the card will use raised styling."
+    }
+  }
+}

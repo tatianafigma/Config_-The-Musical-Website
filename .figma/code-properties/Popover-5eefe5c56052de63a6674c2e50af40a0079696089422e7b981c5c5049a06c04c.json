@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Popover",
+    "filePath": "node_modules/@mui/material/esm/Popover/Popover.js"
+  },
+  "codeProperties": {
+    "open": {
+      "type": "boolean",
+      "name": "Open"
+    },
+    "elevation": {
+      "type": "number",
+      "name": "Elevation",
+      "defaultValue": 8
+    },
+    "disableScrollLock": {
+      "type": "boolean",
+      "name": "Disable Scroll Lock",
+      "defaultValue": false
+    },
+    "anchorReference": {
+      "type": "string",
+      "name": "Anchor Reference",
+      "defaultValue": "anchorEl",
+      "options": [
+        "anchorEl",
+        "anchorPosition",
+        "none"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "anchorEl": "Anchor Element",
+          "anchorPosition": "Anchor Position",
+          "none": "None"
+        }
+      }
+    },
+    "marginThreshold": {
+      "type": "number",
+      "name": "Margin Threshold",
+      "defaultValue": 16
+    }
+  }
+}

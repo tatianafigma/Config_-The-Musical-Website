@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "TabsContent",
+    "filePath": "src/app/components/ui/tabs.tsx"
+  },
+  "codeProperties": {
+    "value": {
+      "type": "string",
+      "name": "Value"
+    },
+    "forceMount": {
+      "type": "boolean",
+      "name": "Force Mount"
+    }
+  }
+}

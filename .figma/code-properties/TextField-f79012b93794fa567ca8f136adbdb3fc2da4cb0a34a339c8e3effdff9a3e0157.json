@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "TextField",
+    "filePath": "node_modules/@mui/material/esm/TextField/TextField.js"
+  },
+  "codeProperties": {
+    "variant": {
+      "type": "string",
+      "name": "Variant",
+      "defaultValue": "outlined",
+      "options": [
+        "outlined",
+        "filled",
+        "standard"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "outlined": "Outlined",
+          "filled": "Filled",
+          "standard": "Standard"
+        }
+      }
+    },
+    "color": {
+      "type": "string",
+      "name": "Color",
+      "defaultValue": "primary",
+      "options": [
+        "primary",
+        "secondary",
+        "error",
+        "info",
+        "success",
+        "warning"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "primary": "Primary",
+          "secondary": "Secondary",
+          "error": "Error",
+          "info": "Info",
+          "success": "Success",
+          "warning": "Warning"
+        }
+      }
+    },
+    "size": {
+      "type": "string",
+      "name": "Size",
+      "defaultValue": "medium",
+      "options": [
+        "medium",
+        "small"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "medium": "Medium",
+          "small": "Small"
+        }
+      }
+    },
+    "margin": {
+      "type": "string",
+      "name": "Margin",
+      "options": [
+        "",
+        "none",
+        "dense",
+        "normal"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "": "Default",
+          "none": "None",
+          "dense": "Dense",
+          "normal": "Normal"
+        }
+      }
+    },
+    "disabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "defaultValue": false
+    },
+    "error": {
+      "type": "boolean",
+      "name": "Error",
+      "defaultValue": false
+    },
+    "fullWidth": {
+      "type": "boolean",
+      "name": "Full Width",
+      "defaultValue": false
+    },
+    "multiline": {
+      "type": "boolean",
+      "name": "Multiline",
+      "defaultValue": false
+    },
+    "required": {
+      "type": "boolean",
+      "name": "Required",
+      "defaultValue": false
+    },
+    "select": {
+      "type": "boolean",
+      "name": "Select",
+      "defaultValue": false
+    },
+    "autoFocus": {
+      "type": "boolean",
+      "name": "Auto Focus",
+      "defaultValue": false
+    },
+    "placeholder": {
+      "type": "string",
+      "name": "Placeholder"
+    },
+    "type": {
+      "type": "string",
+      "name": "Type"
+    }
+  }
+}

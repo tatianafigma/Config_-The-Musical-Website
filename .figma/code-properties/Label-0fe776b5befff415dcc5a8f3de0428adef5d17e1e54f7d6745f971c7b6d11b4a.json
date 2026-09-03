@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Label",
+    "filePath": "src/app/components/ui/label.tsx"
+  },
+  "codeProperties": {
+    "htmlFor": {
+      "type": "string",
+      "name": "HTML For"
+    }
+  }
+}

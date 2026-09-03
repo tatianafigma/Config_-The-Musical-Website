@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "BottomNavigation",
+    "filePath": "node_modules/@mui/material/esm/BottomNavigation/BottomNavigation.js"
+  },
+  "codeProperties": {
+    "showLabels": {
+      "type": "boolean",
+      "name": "Show Labels",
+      "description": "If true, all BottomNavigationActions will show their labels. By default, only the selected action will show its label.",
+      "defaultValue": false
+    }
+  }
+}

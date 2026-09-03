@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Slider",
+    "filePath": "node_modules/@mui/material/esm/Slider/Slider.js"
+  },
+  "codeProperties": {
+    "color": {
+      "type": "string",
+      "name": "Color",
+      "defaultValue": "primary",
+      "options": [
+        "primary",
+        "secondary",
+        "error",
+        "info",
+        "success",
+        "warning"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "primary": "Primary",
+          "secondary": "Secondary",
+          "error": "Error",
+          "info": "Info",
+          "success": "Success",
+          "warning": "Warning"
+        }
+      }
+    },
+    "size": {
+      "type": "string",
+      "name": "Size",
+      "defaultValue": "medium",
+      "options": [
+        "small",
+        "medium"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "small": "Small",
+          "medium": "Medium"
+        }
+      }
+    },
+    "orientation": {
+      "type": "string",
+      "name": "Orientation",
+      "defaultValue": "horizontal",
+      "options": [
+        "horizontal",
+        "vertical"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "horizontal": "Horizontal",
+          "vertical": "Vertical"
+        }
+      }
+    },
+    "track": {
+      "type": "string",
+      "name": "Track",
+      "defaultValue": "normal",
+      "options": [
+        "normal",
+        "inverted",
+        "false"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "normal": "Normal",
+          "inverted": "Inverted",
+          "false": "False (hidden)"
+        }
+      }
+    },
+    "valueLabelDisplay": {
+      "type": "string",
+      "name": "Value Label Display",
+      "defaultValue": "off",
+      "options": [
+        "auto",
+        "on",
+        "off"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "auto": "Auto",
+          "on": "On",
+          "off": "Off"
+        }
+      }
+    },
+    "disabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "defaultValue": false
+    },
+    "disableSwap": {
+      "type": "boolean",
+      "name": "Disable Swap",
+      "defaultValue": false
+    },
+    "min": {
+      "type": "number",
+      "name": "Min",
+      "defaultValue": 0
+    },
+    "max": {
+      "type": "number",
+      "name": "Max",
+      "defaultValue": 100
+    },
+    "step": {
+      "type": "number",
+      "name": "Step",
+      "defaultValue": 1
+    },
+    "shiftStep": {
+      "type": "number",
+      "name": "Shift Step",
+      "defaultValue": 10
+    }
+  }
+}

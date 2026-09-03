@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Accordion",
+    "filePath": "node_modules/@mui/material/esm/Accordion/Accordion.js"
+  },
+  "codeProperties": {
+    "defaultExpanded": {
+      "type": "boolean",
+      "name": "Default Expanded",
+      "defaultValue": false,
+      "description": "If true, expands the accordion by default."
+    },
+    "disabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "defaultValue": false,
+      "description": "If true, the component is disabled."
+    },
+    "disableGutters": {
+      "type": "boolean",
+      "name": "Disable Gutters",
+      "defaultValue": false,
+      "description": "If true, removes the margin between two expanded accordion items and the increase of height."
+    },
+    "expanded": {
+      "type": "boolean",
+      "name": "Expanded",
+      "description": "If true, expands the accordion. Setting this prop enables control over the accordion."
+    },
+    "square": {
+      "type": "boolean",
+      "name": "Square",
+      "defaultValue": false,
+      "description": "If true, rounded corners are disabled."
+    }
+  }
+}

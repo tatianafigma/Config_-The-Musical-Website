@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Link",
+    "filePath": "node_modules/@mui/material/esm/Link/Link.js"
+  },
+  "codeProperties": {
+    "color": {
+      "type": "string",
+      "name": "Color",
+      "defaultValue": "primary",
+      "options": [
+        "primary",
+        "secondary",
+        "success",
+        "error",
+        "info",
+        "warning",
+        "textPrimary",
+        "textSecondary",
+        "textDisabled"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "primary": "Primary",
+          "secondary": "Secondary",
+          "success": "Success",
+          "error": "Error",
+          "info": "Info",
+          "warning": "Warning",
+          "textPrimary": "Text Primary",
+          "textSecondary": "Text Secondary",
+          "textDisabled": "Text Disabled"
+        }
+      }
+    },
+    "underline": {
+      "type": "string",
+      "name": "Underline",
+      "defaultValue": "always",
+      "options": [
+        "always",
+        "hover",
+        "none"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "always": "Always",
+          "hover": "Hover",
+          "none": "None"
+        }
+      }
+    },
+    "variant": {
+      "type": "string",
+      "name": "Variant",
+      "defaultValue": "inherit",
+      "options": [
+        "body1",
+        "body2",
+        "button",
+        "caption",
+        "h1",
+        "h2",
+        "h3",
+        "h4",
+        "h5",
+        "h6",
+        "inherit",
+        "overline",
+        "subtitle1",
+        "subtitle2"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "body1": "Body 1",
+          "body2": "Body 2",
+          "button": "Button",
+          "caption": "Caption",
+          "h1": "H1",
+          "h2": "H2",
+          "h3": "H3",
+          "h4": "H4",
+          "h5": "H5",
+          "h6": "H6",
+          "inherit": "Inherit",
+          "overline": "Overline",
+          "subtitle1": "Subtitle 1",
+          "subtitle2": "Subtitle 2"
+        }
+      }
+    }
+  }
+}

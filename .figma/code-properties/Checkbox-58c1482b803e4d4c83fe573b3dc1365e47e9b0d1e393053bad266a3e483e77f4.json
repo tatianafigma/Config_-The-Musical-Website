@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Checkbox",
+    "filePath": "node_modules/@mui/material/esm/Checkbox/Checkbox.js"
+  },
+  "codeProperties": {
+    "color": {
+      "type": "string",
+      "name": "Color",
+      "defaultValue": "primary",
+      "description": "The color of the component.",
+      "options": [
+        "default",
+        "primary",
+        "secondary",
+        "error",
+        "info",
+        "success",
+        "warning"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "default": "Default",
+          "primary": "Primary",
+          "secondary": "Secondary",
+          "error": "Error",
+          "info": "Info",
+          "success": "Success",
+          "warning": "Warning"
+        }
+      }
+    },
+    "size": {
+      "type": "string",
+      "name": "Size",
+      "defaultValue": "medium",
+      "description": "The size of the component.",
+      "options": [
+        "medium",
+        "small"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "medium": "Medium",
+          "small": "Small"
+        }
+      }
+    },
+    "checked": {
+      "type": "boolean",
+      "name": "Checked",
+      "description": "If true, the component is checked."
+    },
+    "defaultChecked": {
+      "type": "boolean",
+      "name": "Default Checked",
+      "description": "The default checked state. Use when the component is not controlled."
+    },
+    "disabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "defaultValue": false,
+      "description": "If true, the component is disabled."
+    },
+    "disableRipple": {
+      "type": "boolean",
+      "name": "Disable Ripple",
+      "defaultValue": false,
+      "description": "If true, the ripple effect is disabled."
+    },
+    "indeterminate": {
+      "type": "boolean",
+      "name": "Indeterminate",
+      "defaultValue": false,
+      "description": "If true, the component appears indeterminate."
+    },
+    "required": {
+      "type": "boolean",
+      "name": "Required",
+      "defaultValue": false,
+      "description": "If true, the input element is required."
+    }
+  }
+}

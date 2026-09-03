@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "CircularProgress",
+    "filePath": "node_modules/@mui/material/esm/CircularProgress/CircularProgress.js"
+  },
+  "codeProperties": {
+    "color": {
+      "type": "string",
+      "name": "Color",
+      "description": "The color of the component.",
+      "defaultValue": "primary",
+      "options": [
+        "inherit",
+        "primary",
+        "secondary",
+        "error",
+        "info",
+        "success",
+        "warning"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "inherit": "Inherit",
+          "primary": "Primary",
+          "secondary": "Secondary",
+          "error": "Error",
+          "info": "Info",
+          "success": "Success",
+          "warning": "Warning"
+        }
+      }
+    },
+    "variant": {
+      "type": "string",
+      "name": "Variant",
+      "description": "The variant to use. Use indeterminate when there is no progress value.",
+      "defaultValue": "indeterminate",
+      "options": [
+        "determinate",
+        "indeterminate"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "determinate": "Determinate",
+          "indeterminate": "Indeterminate"
+        }
+      }
+    },
+    "value": {
+      "type": "number",
+      "name": "Value",
+      "description": "The value of the progress indicator for the determinate variant. Value between 0 and 100.",
+      "defaultValue": 0,
+      "control": {
+        "type": "range",
+        "min": 0,
+        "max": 100,
+        "step": 1
+      }
+    },
+    "size": {
+      "type": "number",
+      "name": "Size",
+      "description": "The size of the component in pixels.",
+      "defaultValue": 40
+    },
+    "thickness": {
+      "type": "number",
+      "name": "Thickness",
+      "description": "The thickness of the circle.",
+      "defaultValue": 3.6
+    },
+    "disableShrink": {
+      "type": "boolean",
+      "name": "Disable Shrink",
+      "description": "If true, the shrink animation is disabled. This only works if variant is indeterminate.",
+      "defaultValue": false
+    },
+    "enableTrackSlot": {
+      "type": "boolean",
+      "name": "Enable Track Slot",
+      "description": "If true, a track circle slot is mounted to show a subtle background for the progress.",
+      "defaultValue": false
+    }
+  }
+}

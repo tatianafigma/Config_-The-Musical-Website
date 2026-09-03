@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Dialog",
+    "filePath": "node_modules/@mui/material/esm/Dialog/Dialog.js"
+  },
+  "codeProperties": {
+    "open": {
+      "type": "boolean",
+      "name": "Open"
+    },
+    "fullScreen": {
+      "type": "boolean",
+      "name": "Full Screen",
+      "defaultValue": false
+    },
+    "fullWidth": {
+      "type": "boolean",
+      "name": "Full Width",
+      "defaultValue": false
+    },
+    "maxWidth": {
+      "type": "string",
+      "name": "Max Width",
+      "defaultValue": "sm",
+      "options": [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "xs": "XS",
+          "sm": "SM",
+          "md": "MD",
+          "lg": "LG",
+          "xl": "XL"
+        }
+      }
+    },
+    "scroll": {
+      "type": "string",
+      "name": "Scroll",
+      "defaultValue": "paper",
+      "options": [
+        "body",
+        "paper"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "body": "Body",
+          "paper": "Paper"
+        }
+      }
+    },
+    "disableEscapeKeyDown": {
+      "type": "boolean",
+      "name": "Disable Escape Key Down",
+      "defaultValue": false
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Breadcrumbs",
+    "filePath": "node_modules/@mui/material/esm/Breadcrumbs/Breadcrumbs.js"
+  },
+  "codeProperties": {
+    "expandText": {
+      "type": "string",
+      "name": "Expand Text",
+      "description": "Override the default label for the expand button.",
+      "defaultValue": "Show path"
+    },
+    "itemsAfterCollapse": {
+      "type": "number",
+      "name": "Items After Collapse",
+      "description": "If max items is exceeded, the number of items to show after the ellipsis.",
+      "defaultValue": 1
+    },
+    "itemsBeforeCollapse": {
+      "type": "number",
+      "name": "Items Before Collapse",
+      "description": "If max items is exceeded, the number of items to show before the ellipsis.",
+      "defaultValue": 1
+    },
+    "maxItems": {
+      "type": "number",
+      "name": "Max Items",
+      "description": "Specifies the maximum number of breadcrumbs to display.",
+      "defaultValue": 8
+    }
+  }
+}

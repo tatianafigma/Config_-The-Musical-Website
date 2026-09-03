@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "FormControl",
+    "filePath": "node_modules/@mui/material/esm/FormControl/FormControl.js"
+  },
+  "codeProperties": {
+    "variant": {
+      "type": "string",
+      "name": "Variant",
+      "description": "The variant to use.",
+      "defaultValue": "outlined",
+      "options": [
+        "filled",
+        "outlined",
+        "standard"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "filled": "Filled",
+          "outlined": "Outlined",
+          "standard": "Standard"
+        }
+      }
+    },
+    "color": {
+      "type": "string",
+      "name": "Color",
+      "description": "The color of the component.",
+      "defaultValue": "primary",
+      "options": [
+        "primary",
+        "secondary",
+        "error",
+        "info",
+        "success",
+        "warning"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "primary": "Primary",
+          "secondary": "Secondary",
+          "error": "Error",
+          "info": "Info",
+          "success": "Success",
+          "warning": "Warning"
+        }
+      }
+    },
+    "size": {
+      "type": "string",
+      "name": "Size",
+      "description": "The size of the component.",
+      "defaultValue": "medium",
+      "options": [
+        "medium",
+        "small"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "medium": "Medium",
+          "small": "Small"
+        }
+      }
+    },
+    "margin": {
+      "type": "string",
+      "name": "Margin",
+      "description": "If dense or normal, will adjust vertical spacing of this and contained components.",
+      "defaultValue": "none",
+      "options": [
+        "dense",
+        "none",
+        "normal"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "dense": "Dense",
+          "none": "None",
+          "normal": "Normal"
+        }
+      }
+    },
+    "disabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "description": "If true, the label, input and helper text should be displayed in a disabled state.",
+      "defaultValue": false
+    },
+    "error": {
+      "type": "boolean",
+      "name": "Error",
+      "description": "If true, the label is displayed in an error state.",
+      "defaultValue": false
+    },
+    "focused": {
+      "type": "boolean",
+      "name": "Focused",
+      "description": "If true, the component is displayed in focused state."
+    },
+    "fullWidth": {
+      "type": "boolean",
+      "name": "Full Width",
+      "description": "If true, the component will take up the full width of its container.",
+      "defaultValue": false
+    },
+    "hiddenLabel": {
+      "type": "boolean",
+      "name": "Hidden Label",
+      "description": "If true, the label is hidden.",
+      "defaultValue": false
+    },
+    "required": {
+      "type": "boolean",
+      "name": "Required",
+      "description": "If true, the label will indicate that the input is required.",
+      "defaultValue": false
+    }
+  }
+}

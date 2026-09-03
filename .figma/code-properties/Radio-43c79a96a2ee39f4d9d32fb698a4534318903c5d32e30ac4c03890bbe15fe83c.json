@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Radio",
+    "filePath": "node_modules/@mui/material/esm/Radio/Radio.js"
+  },
+  "codeProperties": {
+    "checked": {
+      "type": "boolean",
+      "name": "Checked"
+    },
+    "color": {
+      "type": "string",
+      "name": "Color",
+      "defaultValue": "primary",
+      "options": [
+        "default",
+        "primary",
+        "secondary",
+        "error",
+        "info",
+        "success",
+        "warning"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "default": "Default",
+          "primary": "Primary",
+          "secondary": "Secondary",
+          "error": "Error",
+          "info": "Info",
+          "success": "Success",
+          "warning": "Warning"
+        }
+      }
+    },
+    "disabled": {
+      "type": "boolean",
+      "name": "Disabled"
+    },
+    "disableRipple": {
+      "type": "boolean",
+      "name": "Disable Ripple",
+      "defaultValue": false
+    },
+    "required": {
+      "type": "boolean",
+      "name": "Required"
+    },
+    "size": {
+      "type": "string",
+      "name": "Size",
+      "defaultValue": "medium",
+      "options": [
+        "medium",
+        "small"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "medium": "Medium",
+          "small": "Small"
+        }
+      }
+    }
+  }
+}

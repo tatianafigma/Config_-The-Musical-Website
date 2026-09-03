@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Avatar",
+    "filePath": "node_modules/@mui/material/esm/Avatar/Avatar.js"
+  },
+  "codeProperties": {
+    "variant": {
+      "type": "string",
+      "name": "Variant",
+      "defaultValue": "circular",
+      "description": "The shape of the avatar.",
+      "options": [
+        "circular",
+        "rounded",
+        "square"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "circular": "Circular",
+          "rounded": "Rounded",
+          "square": "Square"
+        }
+      }
+    },
+    "alt": {
+      "type": "string",
+      "name": "Alt Text",
+      "description": "Used in combination with src or srcSet to provide an alt attribute for the rendered img element."
+    },
+    "src": {
+      "type": "string",
+      "name": "Image Source",
+      "description": "The src attribute for the img element."
+    },
+    "srcSet": {
+      "type": "string",
+      "name": "Image Source Set",
+      "description": "The srcSet attribute for the img element. Use this attribute for responsive image display."
+    },
+    "sizes": {
+      "type": "string",
+      "name": "Sizes",
+      "description": "The sizes attribute for the img element."
+    }
+  }
+}

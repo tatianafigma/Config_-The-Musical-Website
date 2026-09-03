@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Collapsible",
+    "filePath": "src/app/components/ui/collapsible.tsx"
+  },
+  "codeProperties": {
+    "defaultOpen": {
+      "type": "boolean",
+      "name": "Default Open"
+    },
+    "open": {
+      "type": "boolean",
+      "name": "Open"
+    },
+    "disabled": {
+      "type": "boolean",
+      "name": "Disabled"
+    }
+  }
+}

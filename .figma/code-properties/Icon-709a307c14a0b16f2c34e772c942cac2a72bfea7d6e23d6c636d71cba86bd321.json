@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Icon",
+    "filePath": "node_modules/lucide-react/dist/esm/Icon.js"
+  },
+  "codeProperties": {
+    "color": {
+      "type": "string",
+      "name": "Color",
+      "defaultValue": "currentColor",
+      "description": "The color of the icon stroke."
+    },
+    "size": {
+      "type": "number",
+      "name": "Size",
+      "defaultValue": 24,
+      "description": "The width and height of the icon in pixels."
+    },
+    "strokeWidth": {
+      "type": "number",
+      "name": "Stroke Width",
+      "defaultValue": 2,
+      "description": "The stroke width of the icon."
+    },
+    "absoluteStrokeWidth": {
+      "type": "boolean",
+      "name": "Absolute Stroke Width",
+      "description": "If true, the stroke width is absolute rather than scaled with the icon size."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Tooltip",
+    "filePath": "src/app/components/ui/tooltip.tsx"
+  },
+  "codeProperties": {
+    "defaultOpen": {
+      "type": "boolean",
+      "name": "Default Open"
+    },
+    "open": {
+      "type": "boolean",
+      "name": "Open"
+    },
+    "delayDuration": {
+      "type": "number",
+      "name": "Delay Duration"
+    }
+  }
+}

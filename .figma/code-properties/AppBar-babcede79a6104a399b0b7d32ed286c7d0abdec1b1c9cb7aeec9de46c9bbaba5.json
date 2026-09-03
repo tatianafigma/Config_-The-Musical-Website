@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "AppBar",
+    "filePath": "node_modules/@mui/material/esm/AppBar/AppBar.js"
+  },
+  "codeProperties": {
+    "color": {
+      "type": "string",
+      "name": "Color",
+      "defaultValue": "primary",
+      "options": [
+        "default",
+        "inherit",
+        "primary",
+        "secondary",
+        "transparent",
+        "error",
+        "info",
+        "success",
+        "warning"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "default": "Default",
+          "inherit": "Inherit",
+          "primary": "Primary",
+          "secondary": "Secondary",
+          "transparent": "Transparent",
+          "error": "Error",
+          "info": "Info",
+          "success": "Success",
+          "warning": "Warning"
+        }
+      }
+    },
+    "position": {
+      "type": "string",
+      "name": "Position",
+      "defaultValue": "fixed",
+      "options": [
+        "absolute",
+        "fixed",
+        "relative",
+        "static",
+        "sticky"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "absolute": "Absolute",
+          "fixed": "Fixed",
+          "relative": "Relative",
+          "static": "Static",
+          "sticky": "Sticky"
+        }
+      }
+    },
+    "enableColorOnDark": {
+      "type": "boolean",
+      "name": "Enable Color On Dark",
+      "defaultValue": false
+    }
+  }
+}

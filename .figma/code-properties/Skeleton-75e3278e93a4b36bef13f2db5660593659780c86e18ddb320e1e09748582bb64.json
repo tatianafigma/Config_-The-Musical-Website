@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Skeleton",
+    "filePath": "node_modules/@mui/material/esm/Skeleton/Skeleton.js"
+  },
+  "codeProperties": {
+    "animation": {
+      "type": "string",
+      "name": "Animation",
+      "description": "The animation. If false the animation effect is disabled.",
+      "defaultValue": "pulse",
+      "options": [
+        "pulse",
+        "wave",
+        "false"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "pulse": "Pulse",
+          "wave": "Wave",
+          "false": "None"
+        }
+      }
+    },
+    "variant": {
+      "type": "string",
+      "name": "Variant",
+      "description": "The type of content that will be rendered.",
+      "defaultValue": "text",
+      "options": [
+        "circular",
+        "rectangular",
+        "rounded",
+        "text"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "circular": "Circular",
+          "rectangular": "Rectangular",
+          "rounded": "Rounded",
+          "text": "Text"
+        }
+      }
+    }
+  }
+}

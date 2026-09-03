@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Grid",
+    "filePath": "node_modules/@mui/material/esm/Grid/Grid.js"
+  },
+  "codeProperties": {
+    "container": {
+      "type": "boolean",
+      "name": "Container",
+      "description": "If true, the component will have the flex container behavior.",
+      "defaultValue": false
+    },
+    "wrap": {
+      "type": "string",
+      "name": "Wrap",
+      "description": "Defines the flex-wrap style property.",
+      "defaultValue": "wrap",
+      "options": [
+        "nowrap",
+        "wrap-reverse",
+        "wrap"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "nowrap": "No Wrap",
+          "wrap-reverse": "Wrap Reverse",
+          "wrap": "Wrap"
+        }
+      }
+    }
+  }
+}

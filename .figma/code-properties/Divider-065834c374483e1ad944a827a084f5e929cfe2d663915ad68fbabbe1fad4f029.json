@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Divider",
+    "filePath": "node_modules/@mui/material/esm/Divider/Divider.js"
+  },
+  "codeProperties": {
+    "orientation": {
+      "type": "string",
+      "name": "Orientation",
+      "description": "The component orientation.",
+      "defaultValue": "horizontal",
+      "options": [
+        "horizontal",
+        "vertical"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "horizontal": "Horizontal",
+          "vertical": "Vertical"
+        }
+      }
+    },
+    "variant": {
+      "type": "string",
+      "name": "Variant",
+      "description": "The variant to use.",
+      "defaultValue": "fullWidth",
+      "options": [
+        "fullWidth",
+        "inset",
+        "middle"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "fullWidth": "Full Width",
+          "inset": "Inset",
+          "middle": "Middle"
+        }
+      }
+    },
+    "textAlign": {
+      "type": "string",
+      "name": "Text Align",
+      "description": "The text alignment.",
+      "defaultValue": "center",
+      "options": [
+        "center",
+        "left",
+        "right"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "center": "Center",
+          "left": "Left",
+          "right": "Right"
+        }
+      }
+    },
+    "absolute": {
+      "type": "boolean",
+      "name": "Absolute",
+      "description": "Absolutely position the element.",
+      "defaultValue": false
+    },
+    "flexItem": {
+      "type": "boolean",
+      "name": "Flex Item",
+      "description": "If true, a vertical divider will have the correct height when used in a flex container.",
+      "defaultValue": false
+    },
+    "light": {
+      "type": "boolean",
+      "name": "Light",
+      "description": "If true, the divider will have a lighter color.",
+      "defaultValue": false
+    }
+  }
+}

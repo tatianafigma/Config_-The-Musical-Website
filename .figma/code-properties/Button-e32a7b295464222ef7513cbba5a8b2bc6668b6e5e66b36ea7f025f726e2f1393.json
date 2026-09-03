@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Button",
+    "filePath": "node_modules/@mui/material/esm/Button/Button.js"
+  },
+  "codeProperties": {
+    "variant": {
+      "type": "string",
+      "name": "Variant",
+      "defaultValue": "text",
+      "description": "The variant to use.",
+      "options": [
+        "contained",
+        "outlined",
+        "text"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "contained": "Contained",
+          "outlined": "Outlined",
+          "text": "Text"
+        }
+      }
+    },
+    "color": {
+      "type": "string",
+      "name": "Color",
+      "defaultValue": "primary",
+      "description": "The color of the component.",
+      "options": [
+        "inherit",
+        "primary",
+        "secondary",
+        "success",
+        "error",
+        "info",
+        "warning"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "inherit": "Inherit",
+          "primary": "Primary",
+          "secondary": "Secondary",
+          "success": "Success",
+          "error": "Error",
+          "info": "Info",
+          "warning": "Warning"
+        }
+      }
+    },
+    "size": {
+      "type": "string",
+      "name": "Size",
+      "defaultValue": "medium",
+      "description": "The size of the component.",
+      "options": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "small": "Small",
+          "medium": "Medium",
+          "large": "Large"
+        }
+      }
+    },
+    "disabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "defaultValue": false,
+      "description": "If true, the component is disabled."
+    },
+    "disableElevation": {
+      "type": "boolean",
+      "name": "Disable Elevation",
+      "defaultValue": false,
+      "description": "If true, no elevation is used."
+    },
+    "disableFocusRipple": {
+      "type": "boolean",
+      "name": "Disable Focus Ripple",
+      "defaultValue": false,
+      "description": "If true, the keyboard focus ripple is disabled."
+    },
+    "disableRipple": {
+      "type": "boolean",
+      "name": "Disable Ripple",
+      "defaultValue": false,
+      "description": "If true, the ripple effect is disabled."
+    },
+    "fullWidth": {
+      "type": "boolean",
+      "name": "Full Width",
+      "defaultValue": false,
+      "description": "If true, the button will take up the full width of its container."
+    },
+    "loading": {
+      "type": "boolean",
+      "name": "Loading",
+      "description": "If true, the loading indicator is visible and the button is disabled."
+    },
+    "loadingPosition": {
+      "type": "string",
+      "name": "Loading Position",
+      "defaultValue": "center",
+      "description": "The loading indicator can be positioned on the start, end, or the center of the button.",
+      "options": [
+        "center",
+        "end",
+        "start"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "center": "Center",
+          "end": "End",
+          "start": "Start"
+        }
+      }
+    },
+    "href": {
+      "type": "string",
+      "name": "Href",
+      "description": "The URL to link to when the button is clicked."
+    }
+  }
+}

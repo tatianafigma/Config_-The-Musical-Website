@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Autocomplete",
+    "filePath": "node_modules/@mui/material/esm/Autocomplete/Autocomplete.js"
+  },
+  "codeProperties": {
+    "size": {
+      "type": "string",
+      "name": "Size",
+      "defaultValue": "medium",
+      "options": [
+        "small",
+        "medium"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "small": "Small",
+          "medium": "Medium"
+        }
+      }
+    },
+    "disabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "defaultValue": false
+    },
+    "disableClearable": {
+      "type": "boolean",
+      "name": "Disable Clearable",
+      "defaultValue": false
+    },
+    "disableCloseOnSelect": {
+      "type": "boolean",
+      "name": "Disable Close On Select",
+      "defaultValue": false
+    },
+    "disableListWrap": {
+      "type": "boolean",
+      "name": "Disable List Wrap",
+      "defaultValue": false
+    },
+    "disablePortal": {
+      "type": "boolean",
+      "name": "Disable Portal",
+      "defaultValue": false
+    },
+    "filterSelectedOptions": {
+      "type": "boolean",
+      "name": "Filter Selected Options",
+      "defaultValue": false
+    },
+    "freeSolo": {
+      "type": "boolean",
+      "name": "Free Solo",
+      "defaultValue": false
+    },
+    "fullWidth": {
+      "type": "boolean",
+      "name": "Full Width",
+      "defaultValue": false
+    },
+    "loading": {
+      "type": "boolean",
+      "name": "Loading",
+      "defaultValue": false
+    },
+    "multiple": {
+      "type": "boolean",
+      "name": "Multiple",
+      "defaultValue": false
+    },
+    "open": {
+      "type": "boolean",
+      "name": "Open"
+    },
+    "openOnFocus": {
+      "type": "boolean",
+      "name": "Open On Focus",
+      "defaultValue": false
+    },
+    "readOnly": {
+      "type": "boolean",
+      "name": "Read Only",
+      "defaultValue": false
+    },
+    "autoComplete": {
+      "type": "boolean",
+      "name": "Auto Complete",
+      "defaultValue": false
+    },
+    "autoHighlight": {
+      "type": "boolean",
+      "name": "Auto Highlight",
+      "defaultValue": false
+    },
+    "autoSelect": {
+      "type": "boolean",
+      "name": "Auto Select",
+      "defaultValue": false
+    },
+    "clearOnEscape": {
+      "type": "boolean",
+      "name": "Clear On Escape",
+      "defaultValue": false
+    },
+    "includeInputInList": {
+      "type": "boolean",
+      "name": "Include Input In List",
+      "defaultValue": false
+    },
+    "clearText": {
+      "type": "string",
+      "name": "Clear Text",
+      "defaultValue": "Clear"
+    },
+    "closeText": {
+      "type": "string",
+      "name": "Close Text",
+      "defaultValue": "Close"
+    },
+    "loadingText": {
+      "type": "string",
+      "name": "Loading Text"
+    },
+    "noOptionsText": {
+      "type": "string",
+      "name": "No Options Text"
+    },
+    "openText": {
+      "type": "string",
+      "name": "Open Text",
+      "defaultValue": "Open"
+    }
+  }
+}

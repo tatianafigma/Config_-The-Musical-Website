@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Alert",
+    "filePath": "node_modules/@mui/material/esm/Alert/Alert.js"
+  },
+  "codeProperties": {
+    "severity": {
+      "type": "string",
+      "name": "Severity",
+      "defaultValue": "success",
+      "description": "The severity of the alert. This defines the color and icon used.",
+      "options": [
+        "error",
+        "info",
+        "success",
+        "warning"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "error": "Error",
+          "info": "Info",
+          "success": "Success",
+          "warning": "Warning"
+        }
+      }
+    },
+    "variant": {
+      "type": "string",
+      "name": "Variant",
+      "defaultValue": "standard",
+      "description": "The variant to use.",
+      "options": [
+        "filled",
+        "outlined",
+        "standard"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "filled": "Filled",
+          "outlined": "Outlined",
+          "standard": "Standard"
+        }
+      }
+    },
+    "color": {
+      "type": "string",
+      "name": "Color",
+      "description": "The color of the component. Unless provided, the value is taken from the severity prop.",
+      "options": [
+        "",
+        "error",
+        "info",
+        "success",
+        "warning"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "": "Default",
+          "error": "Error",
+          "info": "Info",
+          "success": "Success",
+          "warning": "Warning"
+        }
+      }
+    },
+    "closeText": {
+      "type": "string",
+      "name": "Close Text",
+      "defaultValue": "Close",
+      "description": "Override the default label for the close popup icon button."
+    }
+  }
+}

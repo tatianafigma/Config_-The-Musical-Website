@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Rating",
+    "filePath": "node_modules/@mui/material/esm/Rating/Rating.js"
+  },
+  "codeProperties": {
+    "defaultValue": {
+      "type": "number",
+      "name": "Default Value",
+      "description": "The default value. Use when the component is not controlled."
+    },
+    "disabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "description": "If true, the component is disabled.",
+      "defaultValue": false
+    },
+    "highlightSelectedOnly": {
+      "type": "boolean",
+      "name": "Highlight Selected Only",
+      "description": "If true, only the selected icon will be highlighted.",
+      "defaultValue": false
+    },
+    "max": {
+      "type": "number",
+      "name": "Max",
+      "description": "Maximum rating.",
+      "defaultValue": 5
+    },
+    "precision": {
+      "type": "number",
+      "name": "Precision",
+      "description": "The minimum increment value change allowed.",
+      "defaultValue": 1
+    },
+    "readOnly": {
+      "type": "boolean",
+      "name": "Read Only",
+      "description": "Removes all hover effects and pointer events.",
+      "defaultValue": false
+    },
+    "size": {
+      "type": "string",
+      "name": "Size",
+      "description": "The size of the component.",
+      "defaultValue": "medium",
+      "options": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "small": "Small",
+          "medium": "Medium",
+          "large": "Large"
+        }
+      }
+    }
+  }
+}

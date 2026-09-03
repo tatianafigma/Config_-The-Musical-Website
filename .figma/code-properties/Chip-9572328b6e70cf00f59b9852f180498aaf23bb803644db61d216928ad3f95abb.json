@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Chip",
+    "filePath": "node_modules/@mui/material/esm/Chip/Chip.js"
+  },
+  "codeProperties": {
+    "color": {
+      "type": "string",
+      "name": "Color",
+      "defaultValue": "default",
+      "options": [
+        "default",
+        "primary",
+        "secondary",
+        "error",
+        "info",
+        "success",
+        "warning"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "default": "Default",
+          "primary": "Primary",
+          "secondary": "Secondary",
+          "error": "Error",
+          "info": "Info",
+          "success": "Success",
+          "warning": "Warning"
+        }
+      }
+    },
+    "size": {
+      "type": "string",
+      "name": "Size",
+      "defaultValue": "medium",
+      "options": [
+        "medium",
+        "small"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "medium": "Medium",
+          "small": "Small"
+        }
+      }
+    },
+    "variant": {
+      "type": "string",
+      "name": "Variant",
+      "defaultValue": "filled",
+      "options": [
+        "filled",
+        "outlined"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "filled": "Filled",
+          "outlined": "Outlined"
+        }
+      }
+    },
+    "disabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "defaultValue": false
+    },
+    "clickable": {
+      "type": "boolean",
+      "name": "Clickable"
+    },
+    "skipFocusWhenDisabled": {
+      "type": "boolean",
+      "name": "Skip Focus When Disabled",
+      "defaultValue": false
+    },
+    "label": {
+      "type": "string",
+      "name": "Label"
+    }
+  }
+}

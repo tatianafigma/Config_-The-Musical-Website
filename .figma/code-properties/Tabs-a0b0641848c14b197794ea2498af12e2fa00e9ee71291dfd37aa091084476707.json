@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Tabs",
+    "filePath": "node_modules/@mui/material/esm/Tabs/Tabs.js"
+  },
+  "codeProperties": {
+    "orientation": {
+      "type": "string",
+      "name": "Orientation",
+      "defaultValue": "horizontal",
+      "options": [
+        "horizontal",
+        "vertical"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "horizontal": "Horizontal",
+          "vertical": "Vertical"
+        }
+      }
+    },
+    "variant": {
+      "type": "string",
+      "name": "Variant",
+      "defaultValue": "standard",
+      "options": [
+        "standard",
+        "scrollable",
+        "fullWidth"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "standard": "Standard",
+          "scrollable": "Scrollable",
+          "fullWidth": "Full Width"
+        }
+      }
+    },
+    "textColor": {
+      "type": "string",
+      "name": "Text Color",
+      "defaultValue": "primary",
+      "options": [
+        "inherit",
+        "primary",
+        "secondary"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "inherit": "Inherit",
+          "primary": "Primary",
+          "secondary": "Secondary"
+        }
+      }
+    },
+    "indicatorColor": {
+      "type": "string",
+      "name": "Indicator Color",
+      "defaultValue": "primary",
+      "options": [
+        "primary",
+        "secondary"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "primary": "Primary",
+          "secondary": "Secondary"
+        }
+      }
+    },
+    "scrollButtons": {
+      "type": "string",
+      "name": "Scroll Buttons",
+      "options": [
+        "auto",
+        "true",
+        "false"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "auto": "Auto",
+          "true": "Always",
+          "false": "Never"
+        }
+      }
+    },
+    "centered": {
+      "type": "boolean",
+      "name": "Centered",
+      "defaultValue": false
+    },
+    "allowScrollButtonsMobile": {
+      "type": "boolean",
+      "name": "Allow Scroll Buttons Mobile",
+      "defaultValue": false
+    },
+    "visibleScrollbar": {
+      "type": "boolean",
+      "name": "Visible Scrollbar",
+      "defaultValue": false
+    },
+    "selectionFollowsFocus": {
+      "type": "boolean",
+      "name": "Selection Follows Focus"
+    }
+  }
+}

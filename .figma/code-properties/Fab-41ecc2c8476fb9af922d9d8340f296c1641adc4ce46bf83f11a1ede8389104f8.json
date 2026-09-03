@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Fab",
+    "filePath": "node_modules/@mui/material/esm/Fab/Fab.js"
+  },
+  "codeProperties": {
+    "variant": {
+      "type": "string",
+      "name": "Variant",
+      "description": "The variant to use.",
+      "defaultValue": "circular",
+      "options": [
+        "circular",
+        "extended"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "circular": "Circular",
+          "extended": "Extended"
+        }
+      }
+    },
+    "color": {
+      "type": "string",
+      "name": "Color",
+      "description": "The color of the component.",
+      "defaultValue": "default",
+      "options": [
+        "default",
+        "error",
+        "info",
+        "inherit",
+        "primary",
+        "secondary",
+        "success",
+        "warning"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "default": "Default",
+          "error": "Error",
+          "info": "Info",
+          "inherit": "Inherit",
+          "primary": "Primary",
+          "secondary": "Secondary",
+          "success": "Success",
+          "warning": "Warning"
+        }
+      }
+    },
+    "size": {
+      "type": "string",
+      "name": "Size",
+      "description": "The size of the component.",
+      "defaultValue": "large",
+      "options": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "small": "Small",
+          "medium": "Medium",
+          "large": "Large"
+        }
+      }
+    },
+    "disabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "description": "If true, the component is disabled.",
+      "defaultValue": false
+    },
+    "disableFocusRipple": {
+      "type": "boolean",
+      "name": "Disable Focus Ripple",
+      "description": "If true, the keyboard focus ripple is disabled.",
+      "defaultValue": false
+    },
+    "href": {
+      "type": "string",
+      "name": "Href",
+      "description": "The URL to link to when the button is clicked. If defined, an anchor element will be used as the root node."
+    }
+  }
+}

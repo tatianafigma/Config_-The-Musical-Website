@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Stack",
+    "filePath": "node_modules/@mui/material/esm/Stack/Stack.js"
+  },
+  "codeProperties": {
+    "direction": {
+      "type": "string",
+      "name": "Direction",
+      "options": [
+        "column",
+        "column-reverse",
+        "row",
+        "row-reverse"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "column": "Column",
+          "column-reverse": "Column Reverse",
+          "row": "Row",
+          "row-reverse": "Row Reverse"
+        }
+      }
+    },
+    "useFlexGap": {
+      "type": "boolean",
+      "name": "Use Flex Gap",
+      "defaultValue": false
+    }
+  }
+}

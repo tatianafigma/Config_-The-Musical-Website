@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Paper",
+    "filePath": "node_modules/@mui/material/esm/Paper/Paper.js"
+  },
+  "codeProperties": {
+    "elevation": {
+      "type": "number",
+      "name": "Elevation",
+      "description": "Shadow depth, corresponds to dp in the spec. It accepts values between 0 and 24 inclusive.",
+      "defaultValue": 1,
+      "control": {
+        "type": "range",
+        "min": 0,
+        "max": 24,
+        "step": 1
+      }
+    },
+    "square": {
+      "type": "boolean",
+      "name": "Square",
+      "description": "If true, rounded corners are disabled.",
+      "defaultValue": false
+    },
+    "variant": {
+      "type": "string",
+      "name": "Variant",
+      "description": "The variant to use.",
+      "defaultValue": "elevation",
+      "options": [
+        "elevation",
+        "outlined"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "elevation": "Elevation",
+          "outlined": "Outlined"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Menu",
+    "filePath": "node_modules/@mui/material/esm/Menu/Menu.js"
+  },
+  "codeProperties": {
+    "open": {
+      "type": "boolean",
+      "name": "Open"
+    },
+    "autoFocus": {
+      "type": "boolean",
+      "name": "Auto Focus",
+      "defaultValue": true
+    },
+    "disableAutoFocusItem": {
+      "type": "boolean",
+      "name": "Disable Auto Focus Item",
+      "defaultValue": false
+    },
+    "variant": {
+      "type": "string",
+      "name": "Variant",
+      "defaultValue": "selectedMenu",
+      "options": [
+        "menu",
+        "selectedMenu"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "menu": "Menu",
+          "selectedMenu": "Selected Menu"
+        }
+      }
+    }
+  }
+}

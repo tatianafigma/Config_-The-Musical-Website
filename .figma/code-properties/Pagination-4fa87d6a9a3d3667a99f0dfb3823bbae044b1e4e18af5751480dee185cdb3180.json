@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Pagination",
+    "filePath": "node_modules/@mui/material/esm/Pagination/Pagination.js"
+  },
+  "codeProperties": {
+    "boundaryCount": {
+      "type": "number",
+      "name": "Boundary Count",
+      "description": "Number of always visible pages at the beginning and end.",
+      "defaultValue": 1
+    },
+    "color": {
+      "type": "string",
+      "name": "Color",
+      "description": "The active color.",
+      "defaultValue": "standard",
+      "options": [
+        "primary",
+        "secondary",
+        "standard"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "primary": "Primary",
+          "secondary": "Secondary",
+          "standard": "Standard"
+        }
+      }
+    },
+    "count": {
+      "type": "number",
+      "name": "Count",
+      "description": "The total number of pages.",
+      "defaultValue": 1
+    },
+    "defaultPage": {
+      "type": "number",
+      "name": "Default Page",
+      "description": "The page selected by default when the component is uncontrolled.",
+      "defaultValue": 1
+    },
+    "disabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "description": "If true, the component is disabled.",
+      "defaultValue": false
+    },
+    "hideNextButton": {
+      "type": "boolean",
+      "name": "Hide Next Button",
+      "description": "If true, hide the next-page button.",
+      "defaultValue": false
+    },
+    "hidePrevButton": {
+      "type": "boolean",
+      "name": "Hide Prev Button",
+      "description": "If true, hide the previous-page button.",
+      "defaultValue": false
+    },
+    "shape": {
+      "type": "string",
+      "name": "Shape",
+      "description": "The shape of the pagination items.",
+      "defaultValue": "circular",
+      "options": [
+        "circular",
+        "rounded"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "circular": "Circular",
+          "rounded": "Rounded"
+        }
+      }
+    },
+    "showFirstButton": {
+      "type": "boolean",
+      "name": "Show First Button",
+      "description": "If true, show the first-page button.",
+      "defaultValue": false
+    },
+    "showLastButton": {
+      "type": "boolean",
+      "name": "Show Last Button",
+      "description": "If true, show the last-page button.",
+      "defaultValue": false
+    },
+    "siblingCount": {
+      "type": "number",
+      "name": "Sibling Count",
+      "description": "Number of always visible pages before and after the current page.",
+      "defaultValue": 1
+    },
+    "size": {
+      "type": "string",
+      "name": "Size",
+      "description": "The size of the component.",
+      "defaultValue": "medium",
+      "options": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "small": "Small",
+          "medium": "Medium",
+          "large": "Large"
+        }
+      }
+    },
+    "variant": {
+      "type": "string",
+      "name": "Variant",
+      "description": "The variant to use.",
+      "defaultValue": "text",
+      "options": [
+        "outlined",
+        "text"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "outlined": "Outlined",
+          "text": "Text"
+        }
+      }
+    }
+  }
+}

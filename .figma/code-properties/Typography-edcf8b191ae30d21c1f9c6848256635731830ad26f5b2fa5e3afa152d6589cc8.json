@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Typography",
+    "filePath": "node_modules/@mui/material/esm/Typography/Typography.js"
+  },
+  "codeProperties": {
+    "align": {
+      "type": "string",
+      "name": "Align",
+      "description": "Set the text-align on the component.",
+      "defaultValue": "inherit",
+      "options": [
+        "center",
+        "inherit",
+        "justify",
+        "left",
+        "right"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "center": "Center",
+          "inherit": "Inherit",
+          "justify": "Justify",
+          "left": "Left",
+          "right": "Right"
+        }
+      }
+    },
+    "color": {
+      "type": "string",
+      "name": "Color",
+      "description": "The color of the component.",
+      "options": [
+        "primary",
+        "secondary",
+        "success",
+        "error",
+        "info",
+        "warning",
+        "textPrimary",
+        "textSecondary",
+        "textDisabled"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "primary": "Primary",
+          "secondary": "Secondary",
+          "success": "Success",
+          "error": "Error",
+          "info": "Info",
+          "warning": "Warning",
+          "textPrimary": "Text Primary",
+          "textSecondary": "Text Secondary",
+          "textDisabled": "Text Disabled"
+        }
+      }
+    },
+    "gutterBottom": {
+      "type": "boolean",
+      "name": "Gutter Bottom",
+      "description": "If true, the text will have a bottom margin.",
+      "defaultValue": false
+    },
+    "noWrap": {
+      "type": "boolean",
+      "name": "No Wrap",
+      "description": "If true, the text will not wrap, but instead will truncate with a text overflow ellipsis.",
+      "defaultValue": false
+    },
+    "paragraph": {
+      "type": "boolean",
+      "name": "Paragraph",
+      "description": "If true, the element will be a paragraph element.",
+      "defaultValue": false
+    },
+    "variant": {
+      "type": "string",
+      "name": "Variant",
+      "description": "Applies the theme typography styles.",
+      "defaultValue": "body1",
+      "options": [
+        "body1",
+        "body2",
+        "button",
+        "caption",
+        "h1",
+        "h2",
+        "h3",
+        "h4",
+        "h5",
+        "h6",
+        "inherit",
+        "overline",
+        "subtitle1",
+        "subtitle2"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "body1": "Body 1",
+          "body2": "Body 2",
+          "button": "Button",
+          "caption": "Caption",
+          "h1": "H1",
+          "h2": "H2",
+          "h3": "H3",
+          "h4": "H4",
+          "h5": "H5",
+          "h6": "H6",
+          "inherit": "Inherit",
+          "overline": "Overline",
+          "subtitle1": "Subtitle 1",
+          "subtitle2": "Subtitle 2"
+        }
+      }
+    }
+  }
+}

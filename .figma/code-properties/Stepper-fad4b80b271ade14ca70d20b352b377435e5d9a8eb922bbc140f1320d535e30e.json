@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Stepper",
+    "filePath": "node_modules/@mui/material/esm/Stepper/Stepper.js"
+  },
+  "codeProperties": {
+    "activeStep": {
+      "type": "number",
+      "name": "Active Step",
+      "description": "Set the active step (zero based index). Set to -1 to disable all the steps.",
+      "defaultValue": 0
+    },
+    "alternativeLabel": {
+      "type": "boolean",
+      "name": "Alternative Label",
+      "description": "If set to true and orientation is horizontal, then the step label will be positioned under the icon.",
+      "defaultValue": false
+    },
+    "nonLinear": {
+      "type": "boolean",
+      "name": "Non Linear",
+      "description": "If set the Stepper will not assist in controlling steps for linear flow.",
+      "defaultValue": false
+    },
+    "orientation": {
+      "type": "string",
+      "name": "Orientation",
+      "description": "The component orientation (layout flow direction).",
+      "defaultValue": "horizontal",
+      "options": [
+        "horizontal",
+        "vertical"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "horizontal": "Horizontal",
+          "vertical": "Vertical"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "pointAndEdit": {
+    "priorityPaths": {
+      "prefer": [
+        "src/app/App.tsx",
+        "src/app/components/Countdown.tsx",
+        "src/app/components/Navbar.tsx",
+        "src/app/components/Hero.tsx",
+        "src/app/components/Headliners.tsx",
+        "src/app/components/Setlist.tsx",
+        "src/app/components/Commons.tsx",
+        "src/app/components/WatchParty.tsx",
+        "src/app/components/Sponsors.tsx",
+        "src/app/components/Footer.tsx",
+        "src/app/components/ConfigMark.tsx",
+        "src/app/components/figma/ImageWithFallback.tsx"
+      ],
+      "deprioritize": [
+        "src/app/components/ui/**"
+      ],
+      "exclude": [
+        "src/app/components/ConfigMark.figma.ts",
+        "src/**/*.figma.ts",
+        "src/**/*.figma.tsx",
+        "src/**/*.figma.js",
+        "src/**/*.figma.jsx",
+        "src/**/*.figma.template.*",
+        "src/imports/**",
+        "src/styles/**",
+        "node_modules/**",
+        "dist/**",
+        ".figma/**",
+        "guidelines/**",
+        "default_shadcn_theme.css",
+        "postcss.config.mjs",
+        "vite.config.ts",
+        "index.html"
+      ]
+    },
+    "libraryPaths": {
+      "local": [
+        "src/app/components/ui/**"
+      ],
+      "external": [
+        "node_modules/@radix-ui/**",
+        "node_modules/@mui/material/**",
+        "node_modules/@mui/icons-material/**",
+        "node_modules/lucide-react/**"
+      ]
+    },
+    "pathClassification": {
+      "classifier": "sonnet"
+    },
+    "exclusions": [
+      {
+        "glob": "src/app/components/ConfigMark.figma.ts",
+        "reason": "Figma mapping file (.figma.ts) — used for Code Connect, not a UI rendering source anchor."
+      },
+      {
+        "glob": "src/**/*.figma.ts",
+        "reason": "Figma mapping files are Code Connect templates and must never be selected as point-and-edit source anchors."
+      },
+      {
+        "glob": "src/**/*.figma.tsx",
+        "reason": "Figma mapping files are Code Connect templates and must never be selected as point-and-edit source anchors."
+      },
+      {
+        "glob": "src/**/*.figma.js",
+        "reason": "Figma mapping files are Code Connect templates and must never be selected as point-and-edit source anchors."
+      },
+      {
+        "glob": "src/**/*.figma.jsx",
+        "reason": "Figma mapping files are Code Connect templates and must never be selected as point-and-edit source anchors."
+      },
+      {
+        "glob": "src/**/*.figma.template.*",
+        "reason": "Figma mapping files are Code Connect templates and must never be selected as point-and-edit source anchors."
+      },
+      {
+        "glob": "src/imports/**",
+        "reason": "Static image assets imported from screenshots — not source code participating in rendering logic."
+      },
+      {
+        "glob": "src/styles/**",
+        "reason": "Global CSS and style files are not UI component source anchors; they affect styling globally rather than rendering a specific UI element."
+      },
+      {
+        "glob": "node_modules/**",
+        "reason": "Published third-party dependencies — not editable source within this project."
+      },
+      {
+        "glob": "dist/**",
+        "reason": "Build output — generated files, not source."
+      },
+      {
+        "glob": ".figma/**",
+        "reason": "Figma Make tooling configuration files, not UI source."
+      },
+      {
+        "glob": "guidelines/**",
+        "reason": "Documentation files, not UI source."
+      },
+      {
+        "glob": "default_shadcn_theme.css",
+        "reason": "Global theme CSS file, not a UI component source anchor."
+      },
+      {
+        "glob": "postcss.config.mjs",
+        "reason": "Build tooling configuration, not UI source."
+      },
+      {
+        "glob": "vite.config.ts",
+        "reason": "Build tooling configuration, not UI source."
+      },
+      {
+        "glob": "index.html",
+        "reason": "Static HTML entry point, not a UI component source anchor."
+      }
+    ],
+    "generated": {
+      "schemaVersion": 2,
+      "source": "setup-agent.point-and-edit-path-classifier",
+      "prompt": "same-turn-setup-subagent-v5",
+      "model": "claude-sonnet-4-6",
+      "createdAt": "2026-09-02T00:00:00.000Z",
+      "confidence": 0.95,
+      "explanation": "The repository has a clear single-app structure under src/app/ with well-separated app-specific section components (prefer) and a shadcn/ui local library layer (deprioritize/local library), making classification straightforward and high-confidence."
+    }
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "ButtonGroup",
+    "filePath": "node_modules/@mui/material/esm/ButtonGroup/ButtonGroup.js"
+  },
+  "codeProperties": {
+    "variant": {
+      "type": "string",
+      "name": "Variant",
+      "defaultValue": "outlined",
+      "description": "The variant to use.",
+      "options": [
+        "contained",
+        "outlined",
+        "text"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "contained": "Contained",
+          "outlined": "Outlined",
+          "text": "Text"
+        }
+      }
+    },
+    "color": {
+      "type": "string",
+      "name": "Color",
+      "defaultValue": "primary",
+      "description": "The color of the component.",
+      "options": [
+        "inherit",
+        "primary",
+        "secondary",
+        "error",
+        "info",
+        "success",
+        "warning"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "inherit": "Inherit",
+          "primary": "Primary",
+          "secondary": "Secondary",
+          "error": "Error",
+          "info": "Info",
+          "success": "Success",
+          "warning": "Warning"
+        }
+      }
+    },
+    "size": {
+      "type": "string",
+      "name": "Size",
+      "defaultValue": "medium",
+      "description": "The size of the component.",
+      "options": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "small": "Small",
+          "medium": "Medium",
+          "large": "Large"
+        }
+      }
+    },
+    "orientation": {
+      "type": "string",
+      "name": "Orientation",
+      "defaultValue": "horizontal",
+      "description": "The component orientation (layout flow direction).",
+      "options": [
+        "horizontal",
+        "vertical"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "horizontal": "Horizontal",
+          "vertical": "Vertical"
+        }
+      }
+    },
+    "disabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "defaultValue": false,
+      "description": "If true, the component is disabled."
+    },
+    "disableElevation": {
+      "type": "boolean",
+      "name": "Disable Elevation",
+      "defaultValue": false,
+      "description": "If true, no elevation is used."
+    },
+    "disableFocusRipple": {
+      "type": "boolean",
+      "name": "Disable Focus Ripple",
+      "defaultValue": false,
+      "description": "If true, the button keyboard focus ripple is disabled."
+    },
+    "disableRipple": {
+      "type": "boolean",
+      "name": "Disable Ripple",
+      "defaultValue": false,
+      "description": "If true, the button ripple effect is disabled."
+    },
+    "fullWidth": {
+      "type": "boolean",
+      "name": "Full Width",
+      "defaultValue": false,
+      "description": "If true, the buttons will take up the full width of its container."
+    }
+  }
+}

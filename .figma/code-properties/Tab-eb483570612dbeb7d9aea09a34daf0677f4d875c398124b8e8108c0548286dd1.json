@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Tab",
+    "filePath": "node_modules/@mui/material/esm/Tab/Tab.js"
+  },
+  "codeProperties": {
+    "disabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "defaultValue": false
+    },
+    "disableFocusRipple": {
+      "type": "boolean",
+      "name": "Disable Focus Ripple",
+      "defaultValue": false
+    },
+    "disableRipple": {
+      "type": "boolean",
+      "name": "Disable Ripple",
+      "defaultValue": false
+    },
+    "iconPosition": {
+      "type": "string",
+      "name": "Icon Position",
+      "defaultValue": "top",
+      "options": [
+        "top",
+        "bottom",
+        "start",
+        "end"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "top": "Top",
+          "bottom": "Bottom",
+          "start": "Start",
+          "end": "End"
+        }
+      }
+    },
+    "wrapped": {
+      "type": "boolean",
+      "name": "Wrapped",
+      "defaultValue": false
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Input",
+    "filePath": "node_modules/@mui/material/esm/Input/Input.js"
+  },
+  "codeProperties": {
+    "color": {
+      "type": "string",
+      "name": "Color",
+      "options": [
+        "primary",
+        "secondary"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "primary": "Primary",
+          "secondary": "Secondary"
+        }
+      }
+    },
+    "disabled": {
+      "type": "boolean",
+      "name": "Disabled"
+    },
+    "disableUnderline": {
+      "type": "boolean",
+      "name": "Disable Underline",
+      "defaultValue": false
+    },
+    "error": {
+      "type": "boolean",
+      "name": "Error"
+    },
+    "fullWidth": {
+      "type": "boolean",
+      "name": "Full Width",
+      "defaultValue": false
+    },
+    "multiline": {
+      "type": "boolean",
+      "name": "Multiline",
+      "defaultValue": false
+    },
+    "placeholder": {
+      "type": "string",
+      "name": "Placeholder"
+    },
+    "readOnly": {
+      "type": "boolean",
+      "name": "Read Only"
+    },
+    "required": {
+      "type": "boolean",
+      "name": "Required"
+    },
+    "type": {
+      "type": "string",
+      "name": "Type",
+      "defaultValue": "text"
+    },
+    "autoComplete": {
+      "type": "string",
+      "name": "Auto Complete"
+    },
+    "autoFocus": {
+      "type": "boolean",
+      "name": "Auto Focus"
+    }
+  }
+}

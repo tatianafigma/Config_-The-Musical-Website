@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Select",
+    "filePath": "node_modules/@mui/material/esm/Select/Select.js"
+  },
+  "codeProperties": {
+    "variant": {
+      "type": "string",
+      "name": "Variant",
+      "defaultValue": "outlined",
+      "options": [
+        "filled",
+        "outlined",
+        "standard"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "filled": "Filled",
+          "outlined": "Outlined",
+          "standard": "Standard"
+        }
+      }
+    },
+    "multiple": {
+      "type": "boolean",
+      "name": "Multiple",
+      "defaultValue": false
+    },
+    "native": {
+      "type": "boolean",
+      "name": "Native",
+      "defaultValue": false
+    },
+    "autoWidth": {
+      "type": "boolean",
+      "name": "Auto Width",
+      "defaultValue": false
+    },
+    "displayEmpty": {
+      "type": "boolean",
+      "name": "Display Empty",
+      "defaultValue": false
+    },
+    "defaultOpen": {
+      "type": "boolean",
+      "name": "Default Open",
+      "defaultValue": false
+    },
+    "open": {
+      "type": "boolean",
+      "name": "Open"
+    },
+    "label": {
+      "type": "string",
+      "name": "Label"
+    }
+  }
+}
