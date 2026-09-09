@@ -11,7 +11,7 @@ const tickerMessages = [
 const navItems = [
   { label: "AGENDA", href: "#setlist" },
   { label: "SPEAKERS", href: "#lineup" },
-  { label: "FAQ", href: "#venue" },
+  { label: "", href: "#venue" },
 ];
 
 export function Navbar() {
@@ -83,7 +83,7 @@ export function Navbar() {
           </a>
           <a
             href="#register"
-            className="font-mono-label text-[12px] tracking-[0.12em] px-5 h-9 inline-flex items-center border border-foreground text-foreground hover:bg-foreground hover:text-background transition-colors rounded-sm"
+            className="font-mono-label text-[12px] tracking-[0.12em] px-5 h-9 inline-flex items-center border border-[var(--c-green)] text-foreground hover:bg-foreground hover:text-background transition-colors rounded-sm"
           >
             REGISTER
           </a>
